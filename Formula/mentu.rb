@@ -1,15 +1,17 @@
 class Mentu < Formula
   desc "Local autonomous execution runtime with on-device intelligence"
   homepage "https://mentu.ai"
-  url "https://pub-fc4283f8bcfb400cb3545d60fd6667e0.r2.dev/v0.1.0/mentu-0.1.0-arm64.tar.gz"
-  sha256 "bf1b22e811f8fc3bcdb64d26dd390dbfae976d53f9f99ee25f25575d52cba7a5"
+  url "https://pub-fc4283f8bcfb400cb3545d60fd6667e0.r2.dev/v1.0.0/mentu-1.0.0-arm64.tar.gz"
+  sha256 "7c566ba5e466b4d9dc090a161e5b6a06553b8dff1fb82320ec0aff47226436b4"
   license :cannot_represent
 
   def install
     bin.install "mentu"
     bin.install "mentud"
+    bin.install "mentud-toolbar"
     lib.install "libinterceptor_proxy.dylib"
     prefix.install "ai.mentu.plist"
+    prefix.install "SHA256SUMS"
   end
 
   def post_install
