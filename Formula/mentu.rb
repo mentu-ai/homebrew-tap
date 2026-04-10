@@ -3,6 +3,7 @@ class Mentu < Formula
   homepage "https://mentu.ai"
   url "https://pub-fc4283f8bcfb400cb3545d60fd6667e0.r2.dev/v1.0.0/mentu-1.0.0-arm64.tar.gz"
   sha256 "7c566ba5e466b4d9dc090a161e5b6a06553b8dff1fb82320ec0aff47226436b4"
+  version "1.0.0"
   license :cannot_represent
 
   def install
