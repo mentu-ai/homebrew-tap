@@ -17,5 +17,6 @@ mentu-recipes check shell-smoke
 
 ## Mentu Runtime
 
-The `mentu` formula remains in this tap, but its release artifact must be
-publicly reachable before new installs will succeed.
+The previous `mentu` formula was removed because its `1.0.0` release artifact
+is not publicly reachable. Use the `mentu-recipes` cask until the runtime
+artifact is republished behind a stable public URL.
