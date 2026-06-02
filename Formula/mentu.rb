@@ -5,6 +5,7 @@ class Mentu < Formula
   sha256 "7c566ba5e466b4d9dc090a161e5b6a06553b8dff1fb82320ec0aff47226436b4"
   version "1.0.0"
   license :cannot_represent
+  disable! date: "2026-06-02", because: "the 1.0.0 binary artifact is unavailable; install mentu-recipes instead"
 
   def install
     bin.install "mentu"
