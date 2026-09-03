@@ -1,18 +1,18 @@
 class MentuRecipesBin < Formula
   desc "Source-available runner for file-based agent workflows"
   homepage "https://github.com/mentu-ai/mentu-recipes"
-  version "0.3.1"
+  version "0.3.2"
   license :cannot_represent
 
   on_macos do
     on_arm do
       url "https://github.com/mentu-ai/mentu-recipes/releases/download/v#{version}/mentu-recipes-macos-arm64"
-      sha256 "19c0711a42f4560da2458eb396557b20db04e7b04a613cfa02fd93ee775db793"
+      sha256 "b940a625b8225b0034dd8ac47be4b8f8f2f2affc4ab01ac29cd8d368a5064eef"
     end
 
     on_intel do
       url "https://github.com/mentu-ai/mentu-recipes/releases/download/v#{version}/mentu-recipes-macos-x86_64"
-      sha256 "0493cce497407412a6e94039c4cdaa6b40d087f4e39855759ff54a15a9a2d25f"
+      sha256 "8baf59e86271232a580094f5897575845b866d2ba16f9f5acbd81e14f00296fb"
     end
   end
 
