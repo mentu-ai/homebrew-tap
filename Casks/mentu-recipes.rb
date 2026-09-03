@@ -1,6 +1,6 @@
 cask "mentu-recipes" do
-  version "0.3.0"
-  sha256 "9f07c9238b48834ab6036fa6324408a52f6aabc5a2fba5516d1c6160c61e5972"
+  version "0.3.1"
+  sha256 "898943d06373dc0f865cc225f6694693d062e6141819d9976aa6e71000196307"
 
   url "https://github.com/mentu-ai/mentu-recipes/releases/download/v#{version}/mentu-recipes-#{version}-macos-arm64.pkg"
   name "Mentu Recipes"
